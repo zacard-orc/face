@@ -15,6 +15,7 @@ module.exports = {
   },
   extends: [
     'plugin:vue/essential',
+    'plugin:vue/recommended',
     'eslint-config-airbnb-base',
   ],
   parserOptions: {
@@ -27,7 +28,7 @@ module.exports = {
     'import/no-extranous-dependencies': 0,
     'global-require': 0,
     'no-param-reassign': 0,
-    'arrow-parens': ['error', 'as-needed']
+    'arrow-parens': ['error', 'as-needed'],
   },
   overrides: [
     {

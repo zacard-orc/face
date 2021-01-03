@@ -1,15 +1,23 @@
 <template>
-    <div class="hello">
-        <div>{{ msg }}</div>
-    </div>
+  <div class="hello">
+    <div>{{ msg }}</div>
+  </div>
 </template>
 
 <script>
 
 export default {
-  name: 'buttonx',
+  name: 'Buttonx',
   props: {
-    msg: String,
+    msg: {
+      type: String,
+      required: true,
+    },
+  },
+  data() {
+    return {
+      xs: 'hello',
+    };
   },
 };
 </script>
