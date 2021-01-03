@@ -1,5 +1,5 @@
 module.exports = {
-  presets: [
+  presets: process.env.npm_lifecycle_event.indexOf('lib:module') === 0 ? [] : [
     '@vue/cli-plugin-babel/preset'
   ]
 }
