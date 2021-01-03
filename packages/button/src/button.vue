@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
     <div>{{ msg }}</div>
+    <div class="bar">
+      123
+    </div>
   </div>
 </template>
 
@@ -23,9 +26,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.hello{
-    padding: 12px;
-    background-color: yellowgreen;
-    border-radius: 4px;
+.hello {
+  background-color: yellowgreen;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.bar {
+  background-color: red;
 }
 </style>

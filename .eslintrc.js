@@ -29,6 +29,9 @@ module.exports = {
     'global-require': 0,
     'no-param-reassign': 0,
     'arrow-parens': ['error', 'as-needed'],
+    'vue/no-static-inline-styles': ['error', {
+      'allowBinding': false
+    }]
   },
   overrides: [
     {
