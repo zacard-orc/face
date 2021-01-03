@@ -9,9 +9,9 @@ yarn lib:pack
 ```
 
 ## Artifacts
-:hammer: eslint
-:hammer: stylelint
-:hammer: umd pack
-:hammer: webstorm alias
-:hammer: prettier
-:hammer: editor
+:hammer: eslint  
+:hammer: stylelint  
+:hammer: umd pack  
+:hammer: webstorm alias  
+:hammer: prettier  
+:hammer: editor  
