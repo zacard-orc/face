@@ -5,14 +5,14 @@
 </template>
 
 <script>
-import {buttonx} from '../packages/index'
+import { buttonx } from '../packages/index';
 
 export default {
   name: 'App',
   components: {
-    buttonx
-  }
-}
+    buttonx,
+  },
+};
 </script>
 
 <style>
