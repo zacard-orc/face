@@ -15,3 +15,4 @@ yarn lib:pack
 :hammer:  Webstorm alias  
 :hammer:  Prettier  
 :hammer:  Editor  
+:hammer:  Typescript  
